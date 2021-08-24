@@ -6,6 +6,9 @@ import org.springframework.stereotype.Component;
 public class Reciever {
 
     public void recieveMessage(String message){
+
         System.out.println("Recieved order [" +message+"] ");
     }
+
+
 }
