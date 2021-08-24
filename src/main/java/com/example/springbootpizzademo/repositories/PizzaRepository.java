@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface PizzaRepository extends JpaRepository<Pizza, Long> {
 
-    List<Pizza> findAllByNameAndPrice(String name, int price);
+    //List<Pizza> findAllByNameAndPrice(String name, int price);
 }
