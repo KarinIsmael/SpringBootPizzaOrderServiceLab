@@ -30,7 +30,6 @@ public class SpringBootPizzaDemoApplication {
 */
 
         return (args) ->{
-
             if(pizzaRepository.count()==0){
                 pizzaRepository.save(new Pizza(0L,"Calzone",140,"ost,tomatsås,skinka"));
             }

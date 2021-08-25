@@ -35,11 +35,6 @@ public class RabbitMQConfiguration {
         return BindingBuilder.bind(queue).to(exchange).with("pizza-routingkey");
     }
 
-   /* @Bean
-    MessageConverter messageConverter(){
-        return new Jackson2JsonMessageConverter();
-    }*/
-
     @Bean
     SimpleMessageListenerContainer container
             (ConnectionFactory connectionFactory,
